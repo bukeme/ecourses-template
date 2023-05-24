@@ -197,3 +197,12 @@ img,
     border-radius: 2px;
     background-color: var(--primary);
 }
+
+.display-item {
+    opacity: 0;
+    transition: all 0.25s ease-in-out;
+}
+
+.display-trigger:hover .display-item {
+    opacity: 1;
+}

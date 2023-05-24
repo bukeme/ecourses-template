@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Hub</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../font-awesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Mulish:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow align-items-center fixed-top">
+        <a class="navbar-brand text_primary" href="#">
+            <h3 class="mb-0">Learning Hub</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbar-content">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text_primary fw-5 fs-18" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text_dark fw-5 fs-18" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Categories
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Web Design</a>
+                  <a class="dropdown-item" href="#">Development</a>
+                  <a class="dropdown-item" href="#">Game Design</a>
+                  <a class="dropdown-item" href="#">App Development</a>
+                  <a class="dropdown-item" href="#">Content Creation</a>
+                  <a class="dropdown-item" href="#">Writing</a>
+                </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder="Search Courses">
+            <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+          </form>
+          <div class="d-flex flex-column flex-lg-row align-items-start">
+            <a href="#" class="btn btn_primary mx-0 mx-lg-1 my-1 my-lg-0">Join Now</a>
+            <a href="#" class="btn btn_outline_primary mx-0 mx-lg-1 my-1 my-lg-0">Sign In</a>
+          </div>
+        </div>
+    </nav>
+    <div style="height: 150px;" class="bg_dark d-flex align-items-center text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h1>My Learning</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 mt-5">
+                <div class="d-flex align-items-center">
+                    <h5 class="text_dark fw-6 d-none d-md-block">All Courses</h5>
+                    <div class="ml-auto">
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" name="search_courses" placeholder="Search your courses..." class="form-control">
+                                <button type="submit" class="input-group-append btn btn_primary">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div
+                class="grid-container mt-4"
+                style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); grid-row-gap: 30px;">
+                    <div class="display-trigger position-relative">
+                        <div style="height: 150px; position: relative;">
+                            <img src="../images/course-1.jpg" alt="">
+                            <div
+                            class="d-flex justify-content-center align-items-center position-absolute w-100 h-100 display-item"
+                            style="top: 0; left: 0; background: rgba(0, 0, 0, 0.5);">
+                                <div class="rounded-circle bg-white d-flex justify-content-center align-items-center" style="width: 50px; height: 50px;">
+                                    <i class="fa fa-play text_dark fs-25"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mt-2">
+                            <h6 class="text_dark fw-6">Web Development From Beginner To Advance Bootcamp</h6>
+                            <span class="fs-12">Maxwell Academy</span>
+                            <div class="my-1" style="height: 3px; background: rgba(0, 0, 0, 0.1);">
+                                <div class="bg_primary" style="height: inherit; width: 2%;"></div>
+                            </div>
+                            <span class="text_dark fs-12">2% complete</span>
+                        </div>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                    <div class="display-trigger position-relative">
+                        <div style="height: 150px; position: relative;">
+                            <img src="../images/course-2.jpg" alt="">
+                            <div
+                            class="d-flex justify-content-center align-items-center position-absolute w-100 h-100 display-item"
+                            style="top: 0; left: 0; background: rgba(0, 0, 0, 0.5);">
+                                <div class="rounded-circle bg-white d-flex justify-content-center align-items-center" style="width: 50px; height: 50px;">
+                                    <i class="fa fa-play text_dark fs-25"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mt-2">
+                            <h6 class="text_dark fw-6">Web Development From Beginner To Advance Bootcamp</h6>
+                            <span class="fs-12">Maxwell Academy</span>
+                            <div class="my-1" style="height: 3px; background: rgba(0, 0, 0, 0.1);">
+                                <div class="bg_primary" style="height: inherit; width: 0%;"></div>
+                            </div>
+                            <span class="text_dark fs-12">START COURSE</span>
+                        </div>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                    <div class="display-trigger position-relative">
+                        <div style="height: 150px; position: relative;">
+                            <img src="../images/course-3.jpg" alt="">
+                            <div
+                            class="d-flex justify-content-center align-items-center position-absolute w-100 h-100 display-item"
+                            style="top: 0; left: 0; background: rgba(0, 0, 0, 0.5);">
+                                <div class="rounded-circle bg-white d-flex justify-content-center align-items-center" style="width: 50px; height: 50px;">
+                                    <i class="fa fa-play text_dark fs-25"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mt-2">
+                            <h6 class="text_dark fw-6">Web Development From Beginner To Advance Bootcamp</h6>
+                            <span class="fs-12">Maxwell Academy</span>
+                            <div class="my-1" style="height: 3px; background: rgba(0, 0, 0, 0.1);">
+                                <div class="bg_primary" style="height: inherit; width: 2%;"></div>
+                            </div>
+                            <span class="text_dark fs-12">2% complete</span>
+                        </div>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                    <div class="display-trigger position-relative">
+                        <div style="height: 150px; position: relative;">
+                            <img src="../images/course-4.jpg" alt="">
+                            <div
+                            class="d-flex justify-content-center align-items-center position-absolute w-100 h-100 display-item"
+                            style="top: 0; left: 0; background: rgba(0, 0, 0, 0.5);">
+                                <div class="rounded-circle bg-white d-flex justify-content-center align-items-center" style="width: 50px; height: 50px;">
+                                    <i class="fa fa-play text_dark fs-25"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mt-2">
+                            <h6 class="text_dark fw-6">Web Development From Beginner To Advance Bootcamp</h6>
+                            <span class="fs-12">Maxwell Academy</span>
+                            <div class="my-1" style="height: 3px; background: rgba(0, 0, 0, 0.1);">
+                                <div class="bg_primary" style="height: inherit; width: 0%;"></div>
+                            </div>
+                            <span class="text_dark fs-12">START COURSE</span>
+                        </div>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                    <div class="display-trigger position-relative">
+                        <div style="height: 150px; position: relative;">
+                            <img src="../images/course-5.jpg" alt="">
+                            <div
+                            class="d-flex justify-content-center align-items-center position-absolute w-100 h-100 display-item"
+                            style="top: 0; left: 0; background: rgba(0, 0, 0, 0.5);">
+                                <div class="rounded-circle bg-white d-flex justify-content-center align-items-center" style="width: 50px; height: 50px;">
+                                    <i class="fa fa-play text_dark fs-25"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mt-2">
+                            <h6 class="text_dark fw-6">Web Development From Beginner To Advance Bootcamp</h6>
+                            <span class="fs-12">Maxwell Academy</span>
+                            <div class="my-1" style="height: 3px; background: rgba(0, 0, 0, 0.1);">
+                                <div class="bg_primary" style="height: inherit; width: 2%;"></div>
+                            </div>
+                            <span class="text_dark fs-12">2% complete</span>
+                        </div>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                    <div class="display-trigger position-relative">
+                        <div style="height: 150px; position: relative;">
+                            <img src="../images/course-6.jpg" alt="">
+                            <div
+                            class="d-flex justify-content-center align-items-center position-absolute w-100 h-100 display-item"
+                            style="top: 0; left: 0; background: rgba(0, 0, 0, 0.5);">
+                                <div class="rounded-circle bg-white d-flex justify-content-center align-items-center" style="width: 50px; height: 50px;">
+                                    <i class="fa fa-play text_dark fs-25"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mt-2">
+                            <h6 class="text_dark fw-6">Web Development From Beginner To Advance Bootcamp</h6>
+                            <span class="fs-12">Maxwell Academy</span>
+                            <div class="my-1" style="height: 3px; background: rgba(0, 0, 0, 0.1);">
+                                <div class="bg_primary" style="height: inherit; width: 0%;"></div>
+                            </div>
+                            <span class="text_dark fs-12">START COURSE</span>
+                        </div>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+                <div class="mt-4 d-flex justify-content-center">
+                    <ul class="d-flex align-items-center fw-5 text_primary" style="list-style: none;">
+                        <li class="pg-side disabled mx-2">
+                            <a href="#"><i class="fa fa-angle-left"></i></a>
+                        </li>
+                        <li class="mx-2 pg-item position-relative">
+                            <a href="#">1</a>
+                        </li>
+                        <li class="mx-2 text_dark">
+                            <i class="fa fa-ellipsis-h"></i>
+                        </li>
+                        <li class="mx-2 pg-item position-relative active">
+                            <a href="#">4</a>
+                        </li>
+                        <li class="mx-2 text_dark">
+                            <i class="fa fa-ellipsis-h"></i>
+                        </li>
+                        <li class="pg-side mx-2">
+                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/jquery.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
