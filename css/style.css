@@ -2,6 +2,7 @@
     --primary: #06BBCC;
     --dark: #181d38;
     --light: #F0FBFC;
+    --success: #FFAA00;
 }
 
 body {
@@ -34,6 +35,10 @@ body {
 
 .text_light {
     color: var(--light) !important;
+}
+
+.text_success {
+    color: var(--success);
 }
 
 .btn_primary {
@@ -205,4 +210,10 @@ img,
 
 .display-trigger:hover .display-item {
     opacity: 1;
+}
+
+@media screen and (max-width: 575px) {
+    .reduce {
+        font-size: 16px;
+    }
 }
