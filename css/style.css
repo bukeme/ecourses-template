@@ -157,7 +157,7 @@ img,
 }
 
 .enlarge .enlarge-item {
-    transition: all 0.30s ease-in;
+    transition: all 0.30s ease-in-out;
 }
 
 .enlarge-container:hover .enlarge .enlarge-item {
